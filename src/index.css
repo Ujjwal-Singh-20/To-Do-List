@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}    
+    body{
+      font-family: "Quicksand", sans-serif;
+      background-color: #03a2fe48;
+
+}
+h1{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.674);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 50px;
+    color: rgba(13, 3, 3, 0.722);
+    background-color: rgba(91, 52, 4, 0.367);
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+
+    
+}
+form > button{
+    width: 7rem;
+    height:2rem;
+    border-radius: 5px;
+    font-family: "Quicksand", sans-serif;
+    background-color: rgb(157, 27, 109);
+    color: white;
+    border: none;
+    font-size: 15px;
+
+}
+form > input{
+    min-width: 15rem;
+    height:2rem;
+    border-radius: 5px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.625);
+    border: none;
+    max-width: 25rem;
+    margin-right: 5px;
+}
+form > input::placeholder{
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+form > input:focus{
+    outline: none;
+    border: none;
+}
+
+ol > li{
+font-size: 20.5px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#checkbox{
+    width: 20px;
+    height: 20px;
+}
