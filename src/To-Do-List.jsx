@@ -22,7 +22,7 @@ function ToDoList() {
 
   return (
     <>
-      <h1>To Do List</h1>
+      <h1>TO DO LIST</h1>
       <div className="container">
         <form action={addTask}>
           <input type="text" placeholder="Enter a task" name="task" />
@@ -33,7 +33,7 @@ function ToDoList() {
         {taskLists.length === 1 ? (
           <p>You have 1 task in hand</p>
         ) : (
-          <p>You have {taskLists.length} tasks in hand</p>
+          <p>You have {taskLists.length} tasks in list</p>
         )}
       </div>
     </>
