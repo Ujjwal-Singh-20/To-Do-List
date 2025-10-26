@@ -26,26 +26,24 @@ h1{
 
     
 }
-form > button{
-    width: 7rem;
-    height:2rem;
-    border-radius: 5px;
-    font-family: "Quicksand", sans-serif;
-    background-color: green;
-    color: white;
-    border: none;
-    font-size: 15px;
-
+form > button {
+  width: 7rem;
+  height: 2rem;
+  border-radius: 5px;
+  font-family: "Quicksand", sans-serif;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
 }
-form > input{
-    min-width: 15rem;
-    height:2rem;
-    border-radius: 5px;
-    font-size: 18px;
-    color: rgba(0, 0, 0, 0.625);
-    border: none;
-    max-width: 25rem;
-    margin-right: 5px;
+
+form > input {
+  min-width: 15rem;
+  max-width: 25rem;
+  height: 2rem;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+  margin-right: 5px;
 }
 form > input::placeholder{
   font-family: "Quicksand", sans-serif;
@@ -67,6 +65,79 @@ justify-content: center;
     width: 20px;
     height: 20px;
 }
-P{
+p{
     font-size: 40px;
+}
+
+
+button {
+  margin: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.light-mode h1 {
+  color: black;
+}
+
+.light-mode .container {
+  background-color: rgba(240, 240, 240, 0.8);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.light-mode form > button {
+  background-color: green;
+  color: white;
+}
+
+.light-mode form > input {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.625);
+}
+
+.light-mode ol > li {
+  color: black;
+}
+
+.light-mode p {
+  color: black;
+}
+
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode h1 {
+  color: white;
+}
+
+.dark-mode .container {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.dark-mode form > button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.dark-mode form > input {
+  background-color: #333;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.dark-mode ol > li {
+  color: white;
+}
+
+.dark-mode p {
+  color: white;
 }
